@@ -26,5 +26,8 @@ int main() {
     cout << "Last name: " << *lastName << endl;
     cout << "Username: " << username << endl;
 
+    delete firstName;
+    delete lastName;
+
     return 0;
 }
