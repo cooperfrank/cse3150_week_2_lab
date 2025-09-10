@@ -24,3 +24,8 @@ In src/main.cpp, write a program that:
 - Calls your StringUtils::getUsername function to get the username.
 - Prints the parsed first name, last name, and username to the console. You will need to dereference the pointers to print the names.
 - Frees the heap-allocated memory for the first and last name strings using delete. No memory leaks!!
+
+### Compilation
+To compile the program, run the following command from the root directory of the repository:
+```bash
+c++ -std=c++17 src/*.cpp -I include/ -o parser_app
